@@ -4,10 +4,10 @@ import { FiMail } from "react-icons/fi";
 import { MdOutlineBadge } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-// import { IoDocumentTextOutline } from "react-icons/io5";
+import { IoDocumentTextOutline } from "react-icons/io5";
 
 import profile_pic from "../assets/profile1.png";
-import resume from "../assets/CV_Syed.pdf";
+import resume from "../assets/CV_SyedAli.pdf";
 
 const Hero = () => {
   const {
@@ -91,6 +91,11 @@ const Hero = () => {
             <div className="bg-blue-800/30 p-2 rounded">
               <a href="https://x.com/syounusa" target="_blank">
                 <FaXTwitter className="text-lg md:text-xl" />
+              </a>
+            </div>
+            <div className="bg-blue-800/30 p-2 rounded">
+              <a href={resume} target="_blank">
+                <IoDocumentTextOutline className="text-lg md:text-xl" />
               </a>
             </div>
           </div>
