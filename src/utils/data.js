@@ -41,7 +41,7 @@ export const PROFILE = {
   ],
   email: "syounusa@yahoo.com",
   phone: "+44-7949972554",
-  website: "https://syedmyali.github.io/",
+  website: "https://syedmyali.github.io/portfolio",
 };
 
 export const PROJECTS = [
