@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { IoDocumentTextOutline } from "react-icons/io5";
 
 import profile_pic from "../assets/profile1.png";
-import resume from "../assets/CV_SyedAli.pdf";
+import resume from "../assets/CV_Syed.pdf";
 
 const Hero = () => {
   const {
