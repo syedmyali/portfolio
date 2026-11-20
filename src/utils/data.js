@@ -17,7 +17,7 @@ export const PROFILE = {
   name: "Syed Ali",
   tagline:
     "Passionate Data/Software Engineer with strong technical mind-set and problem solving analytical thinking abilities to excel the potentials",
-  jobTitle: "Data Engineer",
+  jobTitle: "Data/Software Engineer",
   location: "United Kingdom",
   yearsOfExperience: "10+",
   skills: [
