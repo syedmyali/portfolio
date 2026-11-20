@@ -1,13 +1,11 @@
 import {
   IoLogoJavascript,
-  IoLogoHtml5,
   IoLogoReact,
   IoLogoAngular,
 } from "react-icons/io5";
-import { BiLogoJava, BiLogoSpringBoot, BiLogoPostgresql } from "react-icons/bi";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { SiMongodb, SiMysql, SiAzuredevops } from "react-icons/si";
-import { FaAws } from "react-icons/fa";
+import { BiLogoJava, BiLogoSpringBoot } from "react-icons/bi";
+import { SiMongodb, SiAzuredevops, SiApachekafka, SiApacheairflow, SiJira, SiConfluence } from "react-icons/si";
+import { FaAws,FaPython,FaDatabase } from "react-icons/fa";
 import medicineChecker from "../assets/medicineExpiryChecker.png";
 import AlumniTrackingApp from "../assets/AlumniTrackingApp.png";
 import EmployeeMS from "../assets/EmployeeMS.png";
@@ -18,13 +16,16 @@ import WeatherApp from "../assets/Weather.png";
 export const PROFILE = {
   name: "Syed Ali",
   tagline:
-    "Passionate Software Developer with strong development mind-set and problem solving analytical thinking abilities to excel the potentials",
-  jobTitle: "Full Stack Developer",
+    "Passionate Data/Software Engineer with strong technical mind-set and problem solving analytical thinking abilities to excel the potentials",
+  jobTitle: "Data Engineer",
   location: "United Kingdom",
   yearsOfExperience: "10+",
   skills: [
     "Java",
     "Python",
+    "Snowflake",
+    "Airflow",
+    "DBT",
     "JavaScript",
     "HTML",
     "CSS",
@@ -104,97 +105,127 @@ export const PROJECTS = [
 export const SKILLS = [
   {
     id: "01",
-    icon: IoLogoJavascript,
-    title: "JavaScript",
-    expertise: "Midlevel",
-  },
-  {
-    id: "02",
-    icon: IoLogoHtml5,
-    title: "HTML",
-    expertise: "Upper Midlevel",
-  },
-  {
-    id: "03",
-    icon: IoLogoReact,
-    title: "React",
-    expertise: "Midlevel",
-  },
-  {
-    id: "04",
-    icon: IoLogoAngular,
-    title: "Angular",
-    expertise: "Midlevel",
-  },
-  {
-    id: "05",
-    icon: BiLogoSpringBoot,
-    title: "Spring Boot",
-    expertise: "Midlevel",
-  },
-  {
-    id: "06",
     icon: BiLogoJava,
     title: "Java",
     expertise: "Midlevel",
   },
   {
-    id: "07",
-    icon: RiTailwindCssFill,
-    title: "Tailwind CSS",
+    id: "02",
+    icon: FaPython,
+    title: "Python",
     expertise: "Midlevel",
   },
   {
-    id: "07",
-    icon: SiMysql,
-    title: "MySQL",
+    id: "03",
+    icon: FaDatabase,
+    title: "SQL",
     expertise: "Midlevel",
   },
   {
-    id: "07",
-    icon: BiLogoPostgresql,
-    title: "PostGreSQL",
+    id: "04",
+    icon: IoLogoJavascript,
+    title: "Snowflake",
     expertise: "Midlevel",
   },
   {
-    id: "07",
+    id: "05",
     icon: SiMongodb,
     title: "MongoDB",
     expertise: "Midlevel",
   },
   {
-    id: "07",
+    id: "06",
     icon: FaAws,
     title: "AWS",
     expertise: "Midlevel",
   },
   {
     id: "07",
+    icon: SiApachekafka,
+    title: "Kafka",
+    expertise: "Midlevel",
+  },
+  {
+    id: "08",
+    icon: SiApacheairflow,
+    title: "Airflow",
+    expertise: "Midlevel",
+  },
+   {
+    id: "09",
+    icon: IoLogoReact,
+    title: "React",
+    expertise: "Midlevel",
+  },
+  {
+    id: "10",
+    icon: IoLogoAngular,
+    title: "Angular",
+    expertise: "Midlevel",
+  },
+  {
+    id: "11",
+    icon: BiLogoSpringBoot,
+    title: "Spring Boot",
+    expertise: "Midlevel",
+  },
+  {
+    id: "12",
     icon: SiAzuredevops,
     title: "Azure",
     expertise: "Midlevel",
   },
+  {
+    id: "13",
+    icon: SiJira,
+    title: "Jira",
+    expertise: "Midlevel",
+  },
+  {
+    id: "14",
+    icon: SiConfluence ,
+    title: "Confluence",
+    expertise: "Midlevel",
+  }
 ];
 
 export const WORK_EXPERIENCE = [
   {
     id: "1",
     company: "INFOSYS Limited, London",
-    position: "Senior Associate: Software Development",
+    position: "Data Engineer/ Software Engineer",
     duration: "2022-Present",
     responsibilities:
-      "# Currently consulting in B-C and C-B messaging application, Marketflow for the client, Scottish and Southern Electricity Network (SSE PLC). # Developed full stack applications like File Management Utility App for Infosys Accelerate Programme and enterprise clients.",
+      "# Data Engineer: June 2026 – Present
+Client: Goldman Sachs, London (Financial Services / Investment Banking)
+•	Architected canonical data models in Goldman Sachs Legend and implemented Slowly Changing Dimensions (SCD Type 2) in Snowflake.
+•	Built modular, automated ELT/ETL pipelines using Apache Airflow, dbt, and SQL across Snowflake and RDBMS sources.
+•	Real-Time Batch Ingestion: Engineered high-throughput and low latency data ingestion pipelines integrating Apache Kafka, REST APIs, and AWS S3 to process trade and market data feeds.
+•	Containerised data pipelines and services with Docker and automated build, test, and release workflows using GitLab CI/CD and GitHub, reducing deployment errors.
+•	Data Governance & Collaboration: Documented end-to-end data lineage, schema definitions, and operational run books in Confluence delivering sprint milestones via Jira.
+",
   },
   {
     id: "2",
-    company: "Caley Ocean systems Ltd, Glasgow",
+    company: "INFOSYS Limited, London",
+    position: "Data Engineer/ Software Engineer",
+    duration: "2022-Present",
+    responsibilities:
+      "# Applications / Data Engineer | March 2022 – May 2026
+Client Engagement: Scottish and Southern Energy, SSE plc (Energy Services)
+•	Enterprise Data Integration: Developed, tested, and supported Marketflow, an enterprise Java / Spring Boot data-sharing platform facilitating mission-critical industry data exchanges across development and production environments.
+•	Pipeline Monitoring & Incident Management: Monitored two-way data flows, diagnosed data discrepancies, and resolved production incidents via ServiceNow CSM/CRM, protecting data availability and SLA compliance.
+•	Data Validation & Quality: Executed end-to-end testing and validation across upstream and downstream data interfaces within Agile delivery teams.",
+  },
+{ id: "3",
+  company: "Caley Ocean systems Ltd, Glasgow",
     position: "Senior Consultant",
     duration: "2019-2021",
-    responsibilities:
-      "# Carried out Stress/strain/vibration/fatigue and over all structural integrity analysis of mechanical/hydraulic systems in aid of ANSYS, Solid Works, Mathcad and hand calculations. #	Produced 3D prototypes and 2D drawings to relevant standards and best practices.",
-  },
+  responsibilities:
+      "# Performed structural and mechanical system design, analysis, and technical documentation for complex engineering projects in accordance with industry standards.",
+},
   {
-    id: "3",
+    id: "4",
     company: "National Oilwell Varco, Glasgow",
     position: "Senior Consultant",
     duration: "2017-2018",
@@ -202,7 +233,7 @@ export const WORK_EXPERIENCE = [
       "# Generated compliance matrix, data sheet, product specification, Basis of Design (BoD) standard operating procedure (SOP), test plan/procedure. # Involved in Finite Element Analysis (FEA) and hand calculation to validate the final physical product using industry standard simulation packages.",
   },
   {
-    id: "4",
+    id: "5",
     company: "Aquaterra Energy Limited, Norwich",
     position: "Design Engineer",
     duration: "2012-2016",
@@ -213,7 +244,7 @@ export const WORK_EXPERIENCE = [
 
 export const ABOUT_ME = {
   introduction:
-    "Hi, I am an Engineering Professional with several years experience in the energy and aerospace industry, where I have worked for different companies in engineering, analysis and design role. All of my skills set are in core technical areas and liaise with suppliers, clients and vendors which will be helpful transferable skills in the software development industry.",
+    "Data/Software Engineer with 4+ years of enterprise data platform, pipeline engineering, and systems integration experience across Investment Banking (Goldman Sachs) and Energy (SSE plc), supported by an MSc in Engineering (Distinction). Specialised in designing scalable ETL/ELT pipelines, medallion architectures, dimensional data models (SCD Type 2), and real-time streaming workflows using Snowflake, Goldman Sachs Legend, dbt, Apache Airflow, Apache Kafka, AWS S3, Python, and SQL. Proven track record delivering reliable, production-grade data solutions in regulated Agile environments.",
   background:
     "I completed Master's and Bachalor's degree in Engineering & Technical Modules. ",
   skills:
