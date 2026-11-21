@@ -210,9 +210,9 @@ Client: Goldman Sachs, London (Financial Services / Investment Banking)
   {
     id: "2",
     company: "Infosys Limited, London",
-    position: "Applications / Data Engineer",
+    position: "Application Engineer",
     duration: "June 2022 - May 2026",
-    responsibilities: `# Applications / Data Engineer | June 2022 - May 2026
+    responsibilities: `# Application Engineer | June 2022 - May 2026
 Client: Scottish and Southern Energy, SSE PLC (Energy Services)
 • Enterprise Data Integration: Developed, tested, and supported Marketflow, an enterprise Java / Spring Boot data-sharing platform facilitating mission-critical industry data exchanges across development and production environments.
 • Pipeline Monitoring & Incident Management: Monitored two-way data flows, diagnosed data discrepancies, and resolved production incidents via ServiceNow CSM/CRM, protecting data availability and SLA compliance.
