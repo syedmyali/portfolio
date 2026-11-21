@@ -198,8 +198,8 @@ export const WORK_EXPERIENCE = [
     id: "1",
     company: "Infosys Limited, London",
     position: "Data Engineer",
-    duration: "June 2022 - Present",
-    responsibilities: `# Data Engineer: June 2026 – Present
+    duration: "June 2026 - Present",
+    responsibilities: `# Data Engineer: June 2026 - Present
 Client: Goldman Sachs, London (Financial Services / Investment Banking)
 • Architected canonical data models in Goldman Sachs Legend and implemented Slowly Changing Dimensions (SCD Type 2) in Snowflake.
 • Built modular, automated ELT/ETL pipelines using Apache Airflow, dbt, and SQL across Snowflake and RDBMS sources.
@@ -211,8 +211,8 @@ Client: Goldman Sachs, London (Financial Services / Investment Banking)
     id: "2",
     company: "Infosys Limited, London",
     position: "Applications / Data Engineer",
-    duration: "June 2022 - Present",
-    responsibilities: `# Applications / Data Engineer | March 2023 – May 2026
+    duration: "June 2022 - May 2026",
+    responsibilities: `# Applications / Data Engineer | June 2022 - May 2026
 Client Engagement: Scottish and Southern Energy, SSE plc (Energy Services)
 • Enterprise Data Integration: Developed, tested, and supported Marketflow, an enterprise Java / Spring Boot data-sharing platform facilitating mission-critical industry data exchanges across development and production environments.
 • Pipeline Monitoring & Incident Management: Monitored two-way data flows, diagnosed data discrepancies, and resolved production incidents via ServiceNow CSM/CRM, protecting data availability and SLA compliance.
