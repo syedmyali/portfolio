@@ -43,7 +43,7 @@ Client: Goldman Sachs, London (Financial Services / Investment Banking)
 • Built modular, automated ELT/ETL pipelines using Apache Airflow, dbt, and SQL across Snowflake and RDBMS sources.
 • Real-Time and Batch Ingestion: Engineered high-throughput, low-latency data ingestion pipelines integrating Apache Kafka, REST APIs, and AWS S3 to process trade and market data feeds.
 • Containerised data pipelines and services with Docker and automated build, test, and release workflows using GitLab CI/CD and GitHub, reducing deployment errors.
-• Data Governance & Collaboration: Documented end-to-end data lineage, schema definitions, and operational runbooks in Confluence, delivering sprint milestones via Jira.`},{id:"2",company:"Infosys Limited, London",position:"Applications / Data Engineer",duration:"June 2022 - May 2026",responsibilities:`# Applications / Data Engineer | June 2022 - May 2026
+• Data Governance & Collaboration: Documented end-to-end data lineage, schema definitions, and operational runbooks in Confluence, delivering sprint milestones via Jira.`},{id:"2",company:"Infosys Limited, London",position:"Application Engineer",duration:"June 2022 - May 2026",responsibilities:`# Application Engineer | June 2022 - May 2026
 Client: Scottish and Southern Energy, SSE PLC (Energy Services)
 • Enterprise Data Integration: Developed, tested, and supported Marketflow, an enterprise Java / Spring Boot data-sharing platform facilitating mission-critical industry data exchanges across development and production environments.
 • Pipeline Monitoring & Incident Management: Monitored two-way data flows, diagnosed data discrepancies, and resolved production incidents via ServiceNow CSM/CRM, protecting data availability and SLA compliance.
