@@ -1,4 +1,5 @@
 import { SKILLS } from "../utils/data";
+import PropTypes from "prop-types";
 
 const Skills = () => {
   return (
@@ -28,11 +29,18 @@ const SkillsCard = ({ icon: Icon, iconProps, title, expertise }) => {
     <div className="bg-slate-900 rounded border border-blue-900 p-3">
       <div className="flex items-center justify-between mb-5">
         <p className="text-base">{title}</p>
-        <Icon className="text-primary text-3xl" />
+        <Icon {...iconProps} className="text-primary text-3xl" />
       </div>
       <p className="text-xs font-light leading-2 opacity-80">{`Expertise: ${expertise}`}</p>
     </div>
   );
+};
+
+SkillsCard.propTypes = {
+  icon: PropTypes.elementType.isRequired,
+  iconProps: PropTypes.object,
+  title: PropTypes.string.isRequired,
+  expertise: PropTypes.string.isRequired,
 };
 
 export default Skills;

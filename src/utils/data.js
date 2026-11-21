@@ -213,7 +213,7 @@ Client: Goldman Sachs, London (Financial Services / Investment Banking)
     position: "Applications / Data Engineer",
     duration: "June 2022 - May 2026",
     responsibilities: `# Applications / Data Engineer | June 2022 - May 2026
-Client Engagement: Scottish and Southern Energy, SSE plc (Energy Services)
+Client: Scottish and Southern Energy, SSE PLC (Energy Services)
 • Enterprise Data Integration: Developed, tested, and supported Marketflow, an enterprise Java / Spring Boot data-sharing platform facilitating mission-critical industry data exchanges across development and production environments.
 • Pipeline Monitoring & Incident Management: Monitored two-way data flows, diagnosed data discrepancies, and resolved production incidents via ServiceNow CSM/CRM, protecting data availability and SLA compliance.
 • Data Validation & Quality: Executed end-to-end testing and validation across upstream and downstream data interfaces within Agile delivery teams.`,

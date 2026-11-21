@@ -1,4 +1,5 @@
 import { WORK_EXPERIENCE } from "../utils/data";
+import PropTypes from "prop-types";
 
 const WorkExperience = () => {
   return (
@@ -65,6 +66,15 @@ const WorkExperienceCard = ({
       </div>
     </div>
   );
+};
+
+WorkExperienceCard.propTypes = {
+  company: PropTypes.string.isRequired,
+  position: PropTypes.string.isRequired,
+  duration: PropTypes.string.isRequired,
+  responsibilities: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired,
+  isLast: PropTypes.bool.isRequired,
 };
 
 export default WorkExperience;

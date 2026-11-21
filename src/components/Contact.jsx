@@ -3,6 +3,7 @@ import { IoMail } from "react-icons/io5";
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { MdOutlineWeb } from "react-icons/md";
 import Swal from "sweetalert2";
+import PropTypes from "prop-types";
 
 const Contact = () => {
   const onSubmit = async (event) => {
@@ -112,6 +113,11 @@ const ContactCard = ({ icon, text }) => {
       <p className="text-cyan-100 text-xs md:text-sm">{text}</p>
     </div>
   );
+};
+
+ContactCard.propTypes = {
+  icon: PropTypes.node.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 export default Contact;

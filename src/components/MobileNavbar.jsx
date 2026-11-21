@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const MobileNavbar = ({ isOpen, setIsMenuOpen }) => {
   const handleScroll = (sectionId) => {
     if (isOpen) setIsMenuOpen(false);
@@ -89,6 +91,11 @@ const MobileNavbar = ({ isOpen, setIsMenuOpen }) => {
       />
     </div>
   );
+};
+
+MobileNavbar.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  setIsMenuOpen: PropTypes.func.isRequired,
 };
 
 export default MobileNavbar;

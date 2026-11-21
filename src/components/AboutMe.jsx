@@ -1,5 +1,6 @@
 import profile_pic from "../assets/profile1.png";
 import { ABOUT_ME } from "../utils/data";
+import PropTypes from "prop-types";
 
 const AboutMe = () => {
   return (
@@ -61,6 +62,11 @@ const InfoCard = ({ label, count }) => {
       </span>
     </div>
   );
+};
+
+InfoCard.propTypes = {
+  label: PropTypes.string.isRequired,
+  count: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
 };
 
 export default AboutMe;

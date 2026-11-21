@@ -5,6 +5,7 @@ import { MdOutlineBadge } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoDocumentTextOutline } from "react-icons/io5";
+import PropTypes from "prop-types";
 
 import profile_pic from "../assets/profile1.png";
 import resume from "../assets/CV_SyedAli.pdf";
@@ -113,6 +114,11 @@ const InfoTile = ({ icon, text }) => {
       <p className="text-xs md:text-sm font-normal">{text}</p>
     </div>
   );
+};
+
+InfoTile.propTypes = {
+  icon: PropTypes.node.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 export default Hero;

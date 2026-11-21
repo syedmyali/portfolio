@@ -1,4 +1,5 @@
 import { PROJECTS } from "../utils/data";
+import PropTypes from "prop-types";
 
 const Projects = () => {
   return (
@@ -57,6 +58,14 @@ const SkillsCard = ({
       </div>
     </div>
   );
+};
+
+SkillsCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  projectName: PropTypes.string.isRequired,
+  techStack: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  githubLink: PropTypes.string.isRequired,
 };
 
 export default Projects;

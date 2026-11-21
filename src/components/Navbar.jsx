@@ -51,7 +51,7 @@
 
 // export default Navbar;
 
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
 import { RiCloseFill } from "react-icons/ri";
 import { CgMenuMotion } from "react-icons/cg";
